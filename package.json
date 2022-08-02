@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
