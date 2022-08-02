@@ -4,6 +4,8 @@
   "description": "Create a multi-page website using the Eleventy static site generator.",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +20,11 @@
   "bugs": {
     "url": "https://github.com/viviurbano/wddm-121-jamstack/issues"
   },
-  "homepage": "https://github.com/viviurbano/wddm-121-jamstack#readme",
+  "homepage": "https://github.com/viviurbano/wddm-121-jamstack/",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0"
   },
   "dependencies": {
     "bootstrap-icons": "^1.9.1"
