@@ -1,4 +1,5 @@
 {
+  "homepage": "https://viviurbano.github.io/wddm-121-jamstack/",
   "name": "wddm-121-jamstack",
   "version": "0.0.1",
   "description": "Create a multi-page website using the Eleventy static site generator.",
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/viviurbano/wddm-121-jamstack/issues"
   },
-  "homepage": "https://github.com/viviurbano/wddm-121-jamstack/",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "bootstrap": "^5.2.0",
